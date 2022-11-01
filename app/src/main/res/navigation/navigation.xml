@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.saidarabxon.yolharakatiqoidalari.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/like_fragment"
+        android:name="uz.saidarabxon.yolharakatiqoidalari.fragments.Like_fragment"
+        android:label="fragment_like_fragment"
+        tools:layout="@layout/fragment_like_fragment" />
+    <fragment
+        android:id="@+id/about_Fragment"
+        android:name="uz.saidarabxon.yolharakatiqoidalari.fragments.About_Fragment"
+        android:label="fragment_about_"
+        tools:layout="@layout/fragment_about_" />
+    <fragment
+        android:id="@+id/addLabelFragment"
+        android:name="uz.saidarabxon.yolharakatiqoidalari.fragments.AddLabelFragment"
+        android:label="fragment_add_label"
+        tools:layout="@layout/fragment_add_label" />
+    <fragment
+        android:id="@+id/LInfoFragment"
+        android:name="uz.saidarabxon.yolharakatiqoidalari.fragments.LInfoFragment"
+        android:label="fragment_l_info"
+        tools:layout="@layout/fragment_l_info" />
+</navigation>

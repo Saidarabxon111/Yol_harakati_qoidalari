@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yo\'l harakati qoidalari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yo_l_belgilari">Yo\'l Belgilari</string>
+    <string name="shlagbaumli_temir_yo_l_kesishmasi">Shlagbaumli temir yo\'l kesishmasi</string>
+</resources>
